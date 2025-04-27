@@ -1,0 +1,31 @@
+/* @todo: The automatic addition of the bg-white class to category icon links is unintended and should be avoided.
+* This CSS rule can be deprecated when issues is fixed.
+*/
+.gd-cptcat-cat-left.bg-white {
+	background-color: transparent !important;
+}
+
+/* @todo: This CSS rule can be deprecated when border control is implemented
+* Set border color for form inputs 
+*/
+.form-select,
+.form-control:not(.submit) {
+	border-color: #e6e5e8 !important;
+}
+
+/* @todo: This CSS rule can be deprecated when border control is implemented
+* Set border radius for form submit button
+*/
+button[type="submit"] {
+    border-radius: 30px;
+}
+
+
+/* 
+* Style latest posts widgets
+*/
+
+.wp-block-latest-posts.wp-block-latest-posts__list li {
+	margin-bottom: 20px;
+	overflow: auto;
+}
